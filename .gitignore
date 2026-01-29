@@ -1,0 +1,20 @@
+# Ambiente virtual
+venv/
+__pycache__/
+*.pyc
+
+# Banco de dados
+*.db
+instance/
+
+# Uploads de usuários
+static/fotos_posts/*
+!static/fotos_posts/.gitkeep
+
+# Segredos
+secretkey.py
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db

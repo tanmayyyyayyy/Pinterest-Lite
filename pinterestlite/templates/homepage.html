@@ -1,0 +1,60 @@
+<!-- HOMEPAGE/LOGIN -->
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>{% block titulo %}
+        Pinterest Lite
+        {% endblock %}</title>
+</head>
+
+{% block corpo %}
+
+<body class="overflow-hidden">
+    <div class="container">
+
+
+        <img src="{{ url_for('static', filename='fotos_site/fundo-login.png') }}" class="bg-imagem-pinterest" />
+
+        <div class="container-popup">
+
+
+            {% block formulario %}
+
+            <form method="POST" class="popup">
+                {{ form.csrf_token }}
+                <img class="logo-login" src="{{ url_for('static', filename='logo/LogoPinterestLiteTexto.png') }}"
+                    alt="Pinterest Lite" class="logo-popup" />
+
+                <div class="div-input">
+                    {{ form.email.label(class="label") }}
+                    {{ form.email(class="input") }}
+                </div>
+
+                <div class="div-input">
+                    {{ form.senha.label(class="label") }}
+                    {{ form.senha(class="input") }}
+                </div>
+
+                <div class="div-botao">
+                    {{ form.botao_confirmacao(class="botao-login") }}
+                    <a href="{{ url_for('cadastro') }}" class="link-criarconta">Não tem uma conta? Cadastro</a>
+                </div>
+            </form>
+            {% endblock %}
+        </div>
+    </div>
+</body>
+{% endblock %}
+
+</html>

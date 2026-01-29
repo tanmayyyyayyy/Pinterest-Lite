@@ -1,0 +1,40 @@
+{% extends "homepage.html" %}
+
+{% block titulo %}
+Pin - Cadastro
+{% endblock %}
+
+
+{% block formulario %}
+
+<form method="POST" class="popup">
+    {{ form.csrf_token }}
+    <img class="logo-cadastro" src="{{ url_for('static', filename='logo/LogoPinterestLiteTexto.png') }}"
+        alt="Pinterest Lite" class="logo-popup" />
+
+    <div class="div-input">
+        {{ form.email.label(class="label") }}
+        {{ form.email(class="input") }}
+    </div>
+
+    <div class="div-input">
+        {{ form.username.label(class="label") }}
+        {{ form.username(class="input") }}
+    </div>
+
+    <div class="div-input">
+        {{ form.senha.label(class="label") }}
+        {{ form.senha(class="input") }}
+    </div>
+
+    <div class="div-input">
+        {{ form.confirmacao_senha.label(class="label") }}
+        {{ form.confirmacao_senha(class="input") }}
+    </div>
+
+    <div class="div-botao">
+        {{ form.botao_confirmacao(class="botao-login") }}
+        <a href="{{ url_for('homepage') }}" class="link-criarconta">Já tem uma conta? Faça seu login</a>
+    </div>
+</form>
+{% endblock %}
