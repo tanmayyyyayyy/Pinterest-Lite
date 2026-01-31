@@ -38,7 +38,7 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-## Linux / Mac
+#### Linux / Mac
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -56,12 +56,12 @@ setx SECRET_KEY "sua_secret_key_aqui"
 ```
 
 
-## No Linux / Mac:
+#### No Linux / Mac:
 ```bash
 export SECRET_KEY="sua_secret_key_aqui"
 ```
 
-## Você pode gerar uma chave segura rodando:
+#### Você pode gerar uma chave segura rodando:
 ```bash
 Rode: python secretkey.py
 ```
@@ -78,7 +78,7 @@ Rode: python criar_banco.py
 Rode: python main.py
 ```
 
-## Acesse no navegador:
+#### Acesse no navegador:
 ```bash
 http://127.0.0.1:5000
 ```
