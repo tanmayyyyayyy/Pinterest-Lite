@@ -32,6 +32,7 @@ cd Pinterest-Lite
 
 
 ### 2️⃣ Crie e ative um ambiente virtual
+```md
 python -m venv venv
 venv\Scripts\activate
 
@@ -41,24 +42,29 @@ source venv/bin/activate
 
 
 ### 3️⃣ Instale as dependências
+```md
 pip install -r requirements.txt
 
 
 ### 4️⃣ Configure a SECRET_KEY
+```md
 setx SECRET_KEY "sua_secret_key_aqui"
 
 ## No Linux / Mac:
 export SECRET_KEY="sua_secret_key_aqui"
 
 ## Você pode gerar uma chave segura rodando:
-python secretkey.py
+Rode: python secretkey.py
 
 
 ### 5️⃣ Crie o banco de dados
-python criar_banco.py
+```md
+Rode: python criar_banco.py
+
 
 ### 6️⃣ Execute o projeto
-python main.py
+```md
+Rode: python main.py
 
 ## Acesse no navegador:
 http://127.0.0.1:5000
