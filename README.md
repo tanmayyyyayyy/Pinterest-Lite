@@ -30,7 +30,7 @@ Projeto web inspirado no Pinterest, desenvolvido com Flask, com foco em aprendiz
 git clone https://github.com/edu2899/Pinterest-Lite.git
 cd Pinterest-Lite
 ```
-
+---
 
 ### 2️⃣ Crie e ative um ambiente virtual
 ```bash
@@ -43,18 +43,18 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 ```
-
+---
 
 ### 3️⃣ Instale as dependências
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ### 4️⃣ Configure a SECRET_KEY
 ```bash
 setx SECRET_KEY "sua_secret_key_aqui"
 ```
-
 
 #### No Linux / Mac:
 ```bash
@@ -65,13 +65,13 @@ export SECRET_KEY="sua_secret_key_aqui"
 ```bash
 Rode: python secretkey.py
 ```
-
+---
 
 ### 5️⃣ Crie o banco de dados
 ```bash
 Rode: python criar_banco.py
 ```
-
+---
 
 ### 6️⃣ Execute o projeto
 ```bash
